@@ -1,0 +1,217 @@
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+.carousel-div {
+  width: 500px;
+}
+.background-image-banner {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  background-image: url("../../images/gifHome.gif")
+}
+.text-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+}
+
+.text-banner button {
+  background-color: #91563a;
+}
+
+.ritual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ritual button {
+  margin: 35px;
+  background-color: #91563a;
+}
+.ritual-title {
+  margin: 20px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  background-color: #bad3d7;
+}
+.steps {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.steps svg {
+  margin-top: 40px;
+}
+
+.card-steps {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #506d85;
+  width: 25%;
+}
+
+.card-steps img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.base-catalog {
+  height: 100%;
+}
+.base-catalog span {
+  display: flex;
+  justify-content: center;
+}
+#background-image-catalog {
+  width: 100%;
+  height: 660px;
+  position: absolute;
+  z-index: -1;
+}
+
+.base-catalog-itens {
+  display: flex;
+  justify-content: center;
+}
+
+.catalog-itens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 300px;
+}
+
+.catalog-itens h5 {
+  text-align: center;
+}
+.catalog-itens p {
+  text-align: center;
+}
+.section-banner-infos {
+  display: flex;
+  justify-content: center;
+}
+.banner-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dec3b6;
+  width: 90%;
+}
+
+.steps-for-ritual {
+  width: 360px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steps-for-ritual a {
+  text-align: justify;
+  padding: 10px;
+  color: #342118;
+  text-decoration: none;
+}
+.steps-for-ritual a:hover {
+  color: #5f768a;
+}
+.btn-outline-dark:hover {
+  background-color: #fff;
+  color: #000;
+}
+.about-products {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.about-container button {
+  width: 11rem;
+  background-color: #9d6147;
+}
+
+.about-quality {
+  display: flex;
+  justify-content: center;
+}
+
+.about-nature-responsabilty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+.about-nature-responsabilty img {
+  height: 100%;
+}
+.about-nature-responsabilty svg {
+  margin: 20px 35px 20px 20px;
+}
+.about-nature-responsabilty p {
+  width: 20%;
+  text-align: center;
+  color: #9d6147;
+}
+.footer {
+  margin: 50px 50px 0 50px;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  background-color: #506d85;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-contact {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-contact a {
+  text-decoration: none;
+  color: #b29d96;
+}
+
+.footer-contact-whatsapp {
+  padding: 6px;
+  border: dashed 1px;
+  border-radius: 20%;
+}
+
+.footer-social-media {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-address {
+  width: 30%;
+}

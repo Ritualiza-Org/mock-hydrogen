@@ -112,6 +112,7 @@ export async function callLoginApi({email, password}) {
       },
       body: JSON.stringify({email, password}),
     });
+    console.log(res);
     if (res.ok) {
       return {};
     } else {

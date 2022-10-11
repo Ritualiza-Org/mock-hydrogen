@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #dec3b6;
+}
+.formInicial {
+  display: flex;
+  
+  justify-content: center;
+  /* border: 1px solid black; */
+  width: 1000px;
+  padding: 10px;
+}
+
+.divImage {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.divImage img {
+  /* max-width: 100% */
+}
+
+.divEsquerda {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.spanValues {
+  margin: 5px;
+}
+
+.totalParaQuem {
+  margin: 15px 0 15px 0;
+}
+
+.totalParaQuem button {
+  margin: 0 10px 0 0;
+}
+
+.divDadosDestinatario {
+  margin: 10px 0 10px 0;
+}
+
+.divDadosDestinatario label {
+  margin: 10px 0 10px 0;
+}
+
+.inputData {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputData input {
+  width: 200px;
+}
